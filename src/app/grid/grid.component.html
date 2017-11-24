@@ -1,0 +1,17 @@
+  <input type="text" [(ngModel)]="name">
+  <input type="text" [(ngModel)]="description">
+  <input type="text" [(ngModel)]="img">
+  <button (click)="onSubmit()">Add Granny</button>
+<div>
+  <ul>
+    <li>
+      <img src="{{img}}"/>
+    </li>
+    <li>
+      {{name}}
+    </li>
+    <li>
+      {{description}}
+    </li>
+  </ul>
+</div>
