@@ -1,5 +1,5 @@
 export interface Granny {
-  id: Number;
+  id?: Number;
   name: String;
   description: String;
   img: String;

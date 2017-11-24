@@ -33,11 +33,13 @@ export class GridComponent implements OnInit {
   }
 
   onSubmit() {
+
     this.granny = {
       name : this.name,
       description: this.description,
       img: this.img
     }
+
     this.gs.saveGranny(this.granny);
   }
 
